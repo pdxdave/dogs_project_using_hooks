@@ -1,3 +1,12 @@
+
+.activeClass{
+  color: orange;
+}
+.dog-nav-by-topic{
+  font-size: 24px;
+  text-decoration: none;
+}
+
 .dogImageContainer{
   display: flex;
   justify-content: center;
@@ -44,10 +53,6 @@
   flex-wrap: wrap;
 }
 
-.dog-card-image{
-
-  
-}
 .dog-card-image image{
   height: 300px;
   width: 300px;
@@ -63,5 +68,4 @@
   justify-content: space-around;
   margin: 0 auto;
   width: 100%;
-  border: 1px solid black
 }

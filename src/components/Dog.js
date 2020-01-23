@@ -28,10 +28,10 @@ const Dogs = (props) => {
         </div>
         <div className="breed-information">
             <nav className="dog-info-nav">
-                <NavLink to={`${url}/about`}>About</NavLink>
-                <NavLink to={`${url}/exercise`}>Exercise</NavLink>
-                <NavLink to={`${url}/training`}>Training</NavLink>
-                <NavLink to={`${url}/grooming`}>Grooming</NavLink>
+                <NavLink to={`${url}/about`} activeClassName="activeClass" className="dog-nav-by-topic" >About</NavLink>
+                <NavLink to={`${url}/exercise` } activeClassName="activeClass" className="dog-nav-by-topic">Exercise</NavLink>
+                <NavLink to={`${url}/training`} activeClassName="activeClass" className="dog-nav-by-topic">Training</NavLink>
+                <NavLink to={`${url}/grooming`} activeClassName="activeClass" className="dog-nav-by-topic">Grooming</NavLink>
             </nav>
             <Switch>
                 <Route path={`${path}/about`}>

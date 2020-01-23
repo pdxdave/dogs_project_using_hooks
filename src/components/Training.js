@@ -3,7 +3,7 @@ import React from 'react';
 const Training = (props) => {
     return (
     <div>
-        <p>{props.dog.training}</p>
+        <p style={{fontSize: "24px"}}>{props.dog.training}</p>
     </div>
     )
 }

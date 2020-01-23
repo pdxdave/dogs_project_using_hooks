@@ -3,7 +3,7 @@ import React from 'react';
 const About = (props) => {
     return(
         <div>
-            <p>{props.dog.about}</p>
+            <p style={{fontSize: "24px"}}>{props.dog.about}</p>
         </div>
     )
 }
