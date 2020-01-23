@@ -19,7 +19,7 @@ function App() {
       <Route exact path="/dog-list">
           <DogList/>
       </Route>
-      <Route path="/dog-list'/:id">
+      <Route path="/dog-list/:id">
           <Dog />
       </Route>
       
