@@ -1,9 +1,14 @@
 import React from 'react';
+import dogPic from '../img/dog3.jpg'
+// import { url } from 'inspector';
+
 
 const Home = () => {
     return(
         <div>
-            <h3>Home</h3>
+            <div className="dogImageContainer">
+                <img className="dogPic" src={dogPic} alt="dogPicture"/>
+            </div>
         </div>
     )
 }

@@ -1,4 +1,25 @@
-.App {
+.dogImageContainer{
+  display: flex;
+  justify-content: center;
+} 
+
+.nav-links{
+ height: 60px;
+ display: flex;
+ justify-content: flex-end;
+ margin-right: 50px;
+}
+.nav-links :nth-child(1), .nav-links :nth-child(2){
+  font-size: 30px;
+  text-decoration: none;
+  margin: 10px;
+}
+/* .nav-links:nth-child(1){
+  padding-right: 20px;
+} */
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +56,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
