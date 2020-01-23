@@ -4,10 +4,10 @@
 } 
 
 .nav-links{
- height: 60px;
- display: flex;
- justify-content: flex-end;
- margin-right: 50px;
+  height: 60px;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 50px;
 }
 .nav-links :nth-child(1), .nav-links :nth-child(2){
   font-size: 30px;
@@ -35,4 +35,33 @@
 .dog-card > h3 {
   text-align: center;
   color: #312C2B;
+}
+
+.dog-card-wrapper {
+  display: flex;
+  margin: 0 auto;
+  width: 60%;
+  flex-wrap: wrap;
+}
+
+.dog-card-image{
+
+  
+}
+.dog-card-image image{
+  height: 300px;
+  width: 300px;
+}
+.breed-information{
+
+  margin: 0 auto;
+  width: 40%;
+}
+
+.dog-info-nav{
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  width: 100%;
+  border: 1px solid black
 }
