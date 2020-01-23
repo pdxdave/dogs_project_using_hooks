@@ -1,24 +1,25 @@
 import React from 'react';
 import './App.css';
+import {Route, Link} from 'react-router-dom';
 import Home from './components/Home'
 import Dog from "./components/Dog"
 import DogList from './components/DogList'
-import {Route, Link} from 'react-router-dom';
+
 
 function App() {
   return (
     <div className="App">
-      <div className="nav-links">
+      <nav className="nav-links">
         <Link to="/">Home</Link>
         <Link to="/dog-list">The Dogs</Link>
-      </div>
+      </nav>
       <Route exact path="/">
           <Home />
       </Route>
-      <Route path="dog-list">
+      <Route exact path="/dog-list">
           <DogList/>
       </Route>
-      <Route path="dog-list'/:id">
+      <Route path="/dog-list'/:id">
           <Dog />
       </Route>
       

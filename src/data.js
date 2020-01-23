@@ -68,8 +68,8 @@ export default [
     },
     {
         id: 5,
-        breed: 'Anatolian Shelpherd Dog',
-        image: 'https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/18121103/Anatolian-Shepherd.4.jpg',
+        breed: 'Anatolian Shepherd Dog',
+        image: 'https://www.purina.cz/sites/g/files/mcldtz1511/files/2017-12/anatolian_shepherd_dog_400x378_0.jpg',
         popularity: "Ranks 90 of 195",
         Height: '29 inches (male), 27 inches (female)',
         Weight: '110 - 150 pounds (male), 80 - 120 pounds (female)',
@@ -79,4 +79,4 @@ export default [
         exercise: 'Because he only needs a moderate amount of exercise, an Anatolian will be happy with time in a yard—be sure it has a tall, strong fence and a locked gate—and a long walk once or twice a day. Remember, though, that an Anatolian must be kept on leash whenever he is taken out of the home. As one breeder says, “Don’t assume that your dogs will be reliable off leash. False security on your part can become a disaster.',
         training: 'Because the breed tends to be wary toward others and instinctively protective, an Anatolian puppy must be socialized. Obedience training is a must with the breed. The Anatolian was bred to work independently, make decisions on his own, and protect his flock from outsiders, and training the breed to respond to commands can be a challenge. Under no circumstances should an Anatolian receive protection or guard-dog training.'
     }
-]
+];
